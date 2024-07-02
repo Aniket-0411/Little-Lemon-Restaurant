@@ -1,0 +1,71 @@
+.meal-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    width: calc(33.333% - 1rem); /* Adjust the width to fit three cards per row */
+    margin-bottom: 1rem; /* Adjust the margin at the bottom of each card */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .meal-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .meal-card-image {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image container */
+    overflow: hidden;
+  }
+  
+  .meal-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .meal-card-header {
+    padding: 1rem;
+    flex-grow: 1; /* Ensure header and footer are spaced correctly */
+  }
+  
+  .meal-card-header h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: #495e57;
+  }
+  
+  .meal-card-header span {
+    font-size: 1.25rem;
+    color: #f4ce14;
+  }
+  
+  .meal-card-body-footer {
+    padding: 1rem;
+  }
+  
+  .meal-card-body-footer p {
+    margin-bottom: 1rem;
+    color: #495e57;
+  }
+  
+  .meal-card-body-footer a {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #f4ce14;
+    color: #495e57;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .meal-card-body-footer a:hover,
+  .meal-card-body-footer a:focus {
+    background-color: #495e57;
+    color: #f4ce14;
+  }
+  

@@ -1,0 +1,91 @@
+.header {
+    padding-top: 1.875rem;
+    background-color: #495e57;
+  }
+  
+  .header .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+    margin-bottom: 9.375rem;
+  }
+  
+  .header-information {
+    grid-column: 1;
+  }
+  
+  .header-information h1 {
+    color: #f4ce14;
+  }
+  
+  .header-information h2 {
+    color: #ffffff;
+  }
+  
+  .header-information p {
+    margin-top: 1.5rem;
+    color: #ffffff;
+  }
+  
+  /* Updated button styling with animation */
+  .header-information .button-primary {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #f4ce14;
+    color: #495e57;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-information .button-primary::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+    border-radius: 50%;
+  }
+  
+  .header-information .button-primary:hover::before {
+    width: 0;
+    height: 0;
+  }
+  
+  .header-information .button-primary:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+  
+  .header-image {
+    grid-column: 2;
+    width: 100%;
+    height: 24rem;
+    margin-bottom: -4.375rem;
+    justify-self: end;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+  
+  /* Media queries */
+  @media (max-width: 792px) {
+    .header .container {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
+  
+    .header-image {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+.testimonials {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+.testimonials .container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.testimonials-carousel {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (hover: hover) {
+  .testimonial-card:hover {
+    transform: scale(1.1);
+  }
+}

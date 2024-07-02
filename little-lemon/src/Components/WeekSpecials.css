@@ -1,0 +1,31 @@
+.week-specials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem; /* Adjust the gap between meal cards */
+  }
+  
+  .week-specials-header {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .week-specials-header h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .week-specials-header .button-primary {
+    padding: 0.75rem 1.5rem;
+    background-color: #f4ce14;
+    color: #495e57;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .week-specials-header .button-primary:hover,
+  .week-specials-header .button-primary:focus {
+    background-color: #495e57;
+    color: #f4ce14;
+  }
+  
