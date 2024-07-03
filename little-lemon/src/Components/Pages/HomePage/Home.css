@@ -1,6 +1,6 @@
 .header {
     padding-top: 1.875rem;
-    background-color: #495e57;
+    background-color: #ecd67e;
   }
   
   .header .container {
@@ -27,7 +27,6 @@
     color: #ffffff;
   }
   
-  /* Updated button styling with animation */
   .header-information .button-primary {
     display: inline-block;
     margin-top: 2rem;
@@ -40,20 +39,7 @@
     transition: all 0.3s ease-in-out;
     position: relative;
     overflow: hidden;
-  }
-  
-  .header-information .button-primary::before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
-    top: 50%;
-    left: 50%;
-    width: 300%;
-    height: 300%;
-    transform: translate(-50%, -50%);
-    transition: all 0.3s ease-in-out;
-    z-index: 0;
-    border-radius: 50%;
+    width: 30%;
   }
   
   .header-information .button-primary:hover::before {
@@ -89,3 +75,7 @@
     }
   }
   
+  .logo {
+    width: 50%;
+    height: auto;
+  }

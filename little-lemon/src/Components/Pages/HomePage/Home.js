@@ -5,6 +5,7 @@ import restaurantFoodImage from '../../../assets/headerimg.jpg';
 import WeekSpecials from './WeekSpecials';
 import Testimonials from './Testimonials';
 import OurStory from './Footer';
+import littlelemon from '../../../assets/littlelemon.png'
 
 const Home = () => {
   return (
@@ -12,7 +13,9 @@ const Home = () => {
     <header className="header">
       <div className="container">
         <div className="header-information">
-          <h1>Little Lemon</h1>
+          <h1>
+            <img class="logo" src={littlelemon} alt="Little Lemon Logo"/>
+          </h1>
           <h2>Chicago</h2>
           <p>
             Timeless Flavors, Modern Elegance: Rediscover Mediterranean Cuisine with a Contemporary Touch!
