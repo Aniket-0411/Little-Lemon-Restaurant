@@ -1,4 +1,4 @@
-import chefsMarioAndAdrianAImage from '../assets/Footer.webp';
+import chefsMarioAndAdrianAImage from '../../../assets/Footer.webp';
 import './Footer.css'
 
 const OurStory = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import restaurantFoodImage from '../assets/headerimg.jpg';
+import restaurantFoodImage from '../../../assets/headerimg.jpg';
 import WeekSpecials from './WeekSpecials';
 import Testimonials from './Testimonials';
 import OurStory from './Footer';

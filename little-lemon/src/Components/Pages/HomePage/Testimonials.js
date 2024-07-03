@@ -1,7 +1,7 @@
-import customer1Image from '../assets/customer1.webp';
-import customer2Image from '../assets/customer2.jpg';
-import customer3Image from '../assets/customer3.jpg';
-import customer4Image from '../assets/customer4.jpg';
+import customer1Image from '../../../assets/customer1.webp';
+import customer2Image from '../../../assets/customer2.jpg';
+import customer3Image from '../../../assets/customer3.jpg';
+import customer4Image from '../../../assets/customer4.jpg';
 import './Testimonials.css';
 import TestimonialCard from './TestimonialCard';
 

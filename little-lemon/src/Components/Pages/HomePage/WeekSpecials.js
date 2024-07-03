@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import PastaImage from '../assets/mediterraneanpasta.jpeg'
-import falafelImage from '../assets/Falafel.jpeg';
-import seaBassImage from '../assets/seabass.webp';
+import PastaImage from '../../../assets/mediterraneanpasta.jpeg'
+import falafelImage from '../../../assets/Falafel.jpeg';
+import seaBassImage from '../../../assets/seabass.webp';
 import './WeekSpecials.css';
 import MealCard from './MealCard';
 import "./WeekSpecials.css"
