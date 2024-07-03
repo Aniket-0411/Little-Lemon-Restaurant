@@ -1,0 +1,105 @@
+/* General form container styles */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Description text styles */
+  .form-desc {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Label styles */
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input field styles */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field[type="date"] {
+    appearance: none;
+  }
+  
+  .input-field[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+  
+  .input-field:focus {
+    border-color: #6e9cf5;
+  }
+  
+  /* Select field styles */
+  .select-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .select-field:focus {
+    border-color: #6e9cf5;
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: #ff6347;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  /* Submit button styles */
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Animation for form elements */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply animation to form */
+  .form-container {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
