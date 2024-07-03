@@ -1,8 +1,9 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import BookingForm from './BookingForm';
+import BookingForm from '../Components/Pages/Bookings/BookingForm';
 
-it('should render correctly with initial state', () => {
+describe('BookingForm component', () => {
+  it('should render correctly with initial state', () => {
     const availableTimes = ['12:00', '13:00'];
     const dispatchOnDateChange = jest.fn();
     const submitData = jest.fn();
@@ -40,3 +41,4 @@ it('should render correctly with initial state', () => {
 
     expect(getByText(/Please choose a valid date/i)).toBeInTheDocument();
   });
+});
