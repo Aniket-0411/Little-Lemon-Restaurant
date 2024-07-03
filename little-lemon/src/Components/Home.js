@@ -4,6 +4,7 @@ import "./Home.css";
 import restaurantFoodImage from '../assets/headerimg.jpg';
 import WeekSpecials from './WeekSpecials';
 import Testimonials from './Testimonials';
+import OurStory from './Footer';
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
     </header>
     <WeekSpecials/>
     <Testimonials/>
+    <OurStory/>
     </>
   );
 };
